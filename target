@@ -27,7 +27,7 @@ git
 invoke top-level maven
 goal- clean install
 maven version-maven
-goals - exec:java Dexec.mainClass="com.exampleApp"  
+goals - exec:java Dexec.mainClass="com.exampleApp"  //mvn exec:java -Dexec.mainClass="com.example.App"
 execute shell:-
 ansible-playbook -i hosts.ini -setup.yml
 
