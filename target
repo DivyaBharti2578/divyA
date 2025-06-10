@@ -7,9 +7,14 @@ sudo ufw enable
 sudo ufw reload
 sudo ufw status
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-sudo wget 
+mvn creation:- mvn archetype:generate -DgroupId=com.example -DartifactId=demo2 -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+cd demo2
+ls
+nano pom.xml //change version to 1.8
+mvn package
+//sudo wget 
 
-
+can access jenkins through http://localhost:8080
 
 
 
