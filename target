@@ -2,10 +2,8 @@ sudo apt install jenkins
 sudo systemctl start jenkins
 sudo systemctl enable jenkins
 sudo systemctl status jenkins
-sudo apt install ufw
-sudo ufw enable
-sudo ufw reload
-sudo ufw status
+sudo apt install firefox
+firefox &
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 mvn creation:- mvn archetype:generate -DgroupId=com.example -DartifactId=demo2 -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
 cd demo2
