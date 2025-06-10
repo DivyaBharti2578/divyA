@@ -1,0 +1,30 @@
+sudo apt install jenkins
+sudo systemctl start jenkins
+sudo systemctl enable jenkins
+sudo systemctl status jenkins
+sudo apt install ufw
+sudo ufw enable
+sudo ufw reload
+sudo ufw status
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+sudo wget 
+
+
+
+
+
+
+ls target/*.jar
+readlink -f target/*.jar
+
+git
+*/main
+invoke top-level maven
+goal- clean install
+maven version-maven
+goals - exec:java Dexec.mainClass="com.exampleApp"  
+execute shell:-
+ansible-playbook -i hosts.ini -setup.yml
+
+save
+build now - console output
