@@ -3,6 +3,7 @@ sudo systemctl start jenkins
 sudo systemctl enable jenkins
 sudo systemctl status jenkins
 sudo apt install firefox
+sudo snap install firefox
 firefox &
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 mvn creation:- mvn archetype:generate -DgroupId=com.example -DartifactId=demo2 -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
